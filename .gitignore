@@ -12,6 +12,7 @@ netlify
 
 # dependencies
 /node_modules
+package-locck.json
 
 # IDEs and editors
 /.idea
