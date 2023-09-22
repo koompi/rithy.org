@@ -4,7 +4,7 @@ import { CompaniesInfo } from "~/data/companies";
 
 export default function Home() {
   return (
-    <main class="text-gray-700  container mx-auto  bg-base-100 w-[54rem] px-4 ">
+    <main class="text-gray-700  container mx-auto  bg-base-100 w-full md:w-[4rem] px-4 ">
       <Banner />
       <Companies />
       <Blogs />
@@ -16,14 +16,14 @@ export default function Home() {
 export const Banner: Component = () => {
   return (
     <section>
-      <div class="hero bg-base-100 pt-12 pb-6" data-aos="zoom-in-up">
+      <div class="hero bg-base-100 pt-12 pb-6">
         <div class="hero-content flex-col lg:flex-row-reverse justify-between">
-          <div class="avatar">
+          <div class="avatar mx-0">
             <div class="w-40 rounded-full shadow-2xl">
               <img src="/images/rithy-thul.jpg" alt="Rithy Thul's profile" />
             </div>
           </div>
-          <div class="text-start">
+          <div class="text-center md:text-start">
             <h1 class="text-4xl font-bold">Rithy THUL</h1>
             <p class="text-base-content text-sm mt-1">
               Owned @smallworld @koompi @selendra
@@ -42,9 +42,9 @@ export const Banner: Component = () => {
 // component company
 export const Companies: Component = () => {
   return (
-    <section class="px-4" data-aos="zoom-in-up">
+    <section class="px-4">
       <h1 class="text-2xl font-semibold">Companies</h1>
-      <div class="mt-6 grid grid-cols-3 gap-3">
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3">
         <For each={CompaniesInfo}>
           {(res) => {
             return (
@@ -68,7 +68,7 @@ export const Companies: Component = () => {
 
 export const Blogs: Component = () => {
   return (
-    <section class="px-4 mt-12" data-aos="zoom-in-up">
+    <section class="px-4 mt-12">
       <h1 class="text-2xl font-semibold">Notes to Theyself</h1>
       <div class="mt-6 grid grid-cols-3 gap-3">
         <For each={CompaniesInfo}>

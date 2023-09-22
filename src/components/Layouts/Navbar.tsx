@@ -49,13 +49,13 @@ const Navbar: Component = () => {
             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@ const Navbar: Component = () => {
               </a>
             </li>
             <li>
-              <a class={` ${active("/contact")} text-lg`} href="#">
+              <a class={` ${active("/contact")} text-lg`} href="/contact">
                 Contact
               </a>
             </li>
@@ -80,12 +80,12 @@ const Navbar: Component = () => {
         </div>
       </div>
 
-      <div class="navbar-end">
+      {/* <div class="md:navbar-end">
         <label class="swap swap-rotate btn btn-ghost">
           <input type="checkbox" onchange={() => toggleTheme()} />
           {theme() === "acid" ? <FiSun size={24} /> : <FiMoon size={24} />}
         </label>
-      </div>
+      </div> */}
     </div>
   );
 };
