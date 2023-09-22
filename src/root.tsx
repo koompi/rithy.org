@@ -1,5 +1,8 @@
 // @refresh reload
 import { Suspense, createEffect, createMemo, createSignal } from "solid-js";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import {
   Body,
   ErrorBoundary,
@@ -31,6 +34,9 @@ export const updateTheme = (name: string) => {
 };
 
 export default function Root() {
+  createEffect(() => {
+    AOS.init();
+  });
   return (
     <Html lang="en" data-theme={theme()}>
       <Head>

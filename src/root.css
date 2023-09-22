@@ -7,3 +7,22 @@
 /* body {
   font-family: "Poppins", sans-serif;
 } */
+
+.background-img {
+  background-image: url("/images/lopper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.background-img2 {
+  background-image: radial-gradient(
+      rgba(237, 237, 237, 0.42) 2px,
+      transparent 2px
+    ),
+    radial-gradient(rgba(237, 237, 237, 0.42) 2px, transparent 2px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  /* background-color: #ffffff; */
+}

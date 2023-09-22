@@ -3,6 +3,7 @@ import { FiMoon, FiSun } from "solid-icons/fi";
 import { useLocation } from "solid-start";
 import { theme } from "./../../root";
 import { updateTheme } from "./../../root";
+import { A } from "solid-start";
 
 const Navbar: Component = () => {
   const location = useLocation();
@@ -61,12 +62,12 @@ const Navbar: Component = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li>
-              <a class={` ${active("/")} text-lg`} href="#">
+              <a class={` ${active("/")} text-lg`} href="/">
                 Home
               </a>
             </li>
             <li>
-              <a class={` ${active("/projects")} text-lg`} href="#">
+              <a class={` ${active("/projects")} text-lg`} href="/projects">
                 Projects
               </a>
             </li>
