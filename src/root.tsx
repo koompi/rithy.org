@@ -16,6 +16,7 @@ import {
 } from "solid-start";
 import "./root.css";
 import Navbar from "./components/Layouts/Navbar";
+import Footer from "./components/Layouts/Footer";
 
 const defaultTheme = () => {
   if (typeof localStorage === "undefined") {
@@ -51,6 +52,7 @@ export default function Root() {
             <Routes>
               <FileRoutes />
             </Routes>
+            <Footer />
           </ErrorBoundary>
         </Suspense>
         <Scripts />
