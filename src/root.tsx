@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense, createEffect, createMemo, createSignal } from "solid-js";
+import { Suspense, createEffect, createSignal } from "solid-js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -42,8 +42,22 @@ export default function Root() {
     <Html lang="en" data-theme={theme()}>
       <Head>
         <Title>Rithy THUL</Title>
-        <Meta charset="utf-8" />
-        <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Meta name="twitter:image:src" content="/images/about-2.png" />
+        <Meta name="twitter:site" content="@github" />
+        <Meta name="twitter:card" content="summary_large_image" />
+        <Meta name="twitter:title" content="Portfolio | Rithy THUL" />
+        <Meta
+          name="twitter:description"
+          content="Daydream @smallworldventure, building and nurturing @koompi, @selendra, @vitaminair. Notes @rithythul."
+        />
+        <Meta property="og:image" content="/images/about-2.png" />
+        <Meta
+          property="og:image:alt"
+          content="Daydream @smallworldventure, building and nurturing @koompi, @selendra, @vitaminair. Notes @rithythul."
+        />
+        <Meta property="og:image:width" content="1200" />
+        <Meta property="og:image:height" content="600" />
+        <Meta property="og:site_name" content="GitHub" />
       </Head>
       <Body>
         <Suspense>
