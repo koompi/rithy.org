@@ -1,9 +1,10 @@
 {
-  "name": "rithythul.org",
+  "name": "rithy.org",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build",
+    "build": "solid-start build --output public",
     "start": "solid-start start"
+
   },
   "type": "module",
   "devDependencies": {
@@ -31,3 +32,4 @@
     "node": "18"
   }
 }
+
