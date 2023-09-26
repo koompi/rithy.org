@@ -32,11 +32,15 @@ export const Banner: Component = () => {
           <div class="text-center md:text-start">
             <h1 class="text-4xl font-bold">Rithy THUL</h1>
             <p class="text-base-content text-sm mt-1">
-              Owned @smallworld @koompi @selendra
+            Seeking a Life of Adventure
             </p>
             <p class="py-3">
-              Daydream @smallworldventure, building and nurturing @koompi,
-              @selendra, @vitaminair. Notes @rithythul.
+              Daydreamer <a href="https://smallworldventure.com">@smallworld </a>  
+              , building and nurturing 
+              <a target="_blank" href="https://koompi.com">@koompi, </a> 
+              <a target="_blank" href="https://portal.selendra.org">@selendra, </a> 
+              <a target="_blank" href="https://vitaminair.org">@vitaminair </a> 
+              <a target="_blank" href="https://t.me/s/rithythul">@rithythul.</a>
             </p>
           </div>
         </div>

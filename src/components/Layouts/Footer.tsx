@@ -1,5 +1,5 @@
 import { Component } from "solid-js";
-import { BiLogosTelegram } from "solid-icons/bi";
+import { BiLogosLinkedin, BiLogosTelegram, BiLogosTwitter } from "solid-icons/bi";
 
 const Footer: Component = () => {
   return (
@@ -14,6 +14,20 @@ const Footer: Component = () => {
           target="_blank"
         >
           <BiLogosTelegram size={24} />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="https://linkedin.com/in/rithythul/"
+          target="_blank"
+        >
+          <BiLogosLinkedin size={24} />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="https://x.com/rithythul/"
+          target="_blank"
+        >
+          <BiLogosTwitter size={24} />
         </a>
       </nav>
     </footer>

@@ -52,6 +52,9 @@ const Navbar: Component = () => {
             <li>
               <a href="/about">About</a>
             </li>
+            <li>
+              <a target="_blank" href="https://t.me/s/rithythul">Notes</a>
+            </li>
           </ul>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -69,6 +72,11 @@ const Navbar: Component = () => {
             <li>
               <a class={active("/about")} href="/about">
                 About
+              </a>
+            </li>
+            <li>
+              <a class={active("https://t.me/s/rithythul")} target="_blank" href="https://t.me/s/rithythul">
+                Notes
               </a>
             </li>
           </ul>
