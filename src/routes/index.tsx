@@ -1,10 +1,16 @@
-import { For, type Component, Show } from "solid-js";
+import { For, type Component, Show, createEffect } from "solid-js";
 import { A } from "solid-start";
 import { CompaniesInfo } from "~/data/companies";
+import axios from "axios";
 
 export default function Home() {
+  createEffect(async () => {
+    let posts = await axios.get("/api/posts");
+    console.log(posts.data);
+  });
+
   return (
-    <main class=" container mx-auto text-gray-700  bg-base-100 w-[54rem] px-4">
+    <main class="text-gray-700  container mx-auto  bg-base-100 w-full lg:w-[54rem] px-4">
       <Banner />
       <Companies />
       <Blogs />
@@ -18,19 +24,23 @@ export const Banner: Component = () => {
     <section>
       <div class="hero bg-base-100 pt-12 pb-6">
         <div class="hero-content flex-col lg:flex-row-reverse justify-between">
-          <div class="avatar">
+          <div class="avatar mx-0">
             <div class="w-40 rounded-full shadow-2xl">
               <img src="/images/rithy-thul.jpg" alt="Rithy Thul's profile" />
             </div>
           </div>
-          <div class="text-start">
+          <div class="text-center md:text-start">
             <h1 class="text-4xl font-bold">Rithy THUL</h1>
             <p class="text-base-content text-sm mt-1">
-              Owned @smallworld @koompi @selendra
+            Seeking a Life of Adventure
             </p>
             <p class="py-3">
-              Daydream @smallworldventure, building and nurturing @koompi,
-              @selendra, @vitaminair. Notes @rithythul.
+              Daydreamer <a href="https://smallworldventure.com">@smallworld </a>  
+              , building and nurturing 
+              <a target="_blank" href="https://koompi.com">@koompi, </a> 
+              <a target="_blank" href="https://portal.selendra.org">@selendra, </a> 
+              <a target="_blank" href="https://vitaminair.org">@vitaminair </a> 
+              <a target="_blank" href="https://t.me/s/rithythul">@rithythul.</a>
             </p>
           </div>
         </div>
@@ -42,14 +52,14 @@ export const Banner: Component = () => {
 // component company
 export const Companies: Component = () => {
   return (
-    <section class="px-4">
+    <section class="md:px-0 lg:px-4">
       <h1 class="text-2xl font-semibold">Companies</h1>
-      <div class="mt-6 grid grid-cols-3 gap-3">
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3">
         <For each={CompaniesInfo}>
           {(res) => {
             return (
               <Show when={res} fallback={<p>loading ...</p>}>
-                <A href={res.link} target="_blank">
+                <A href={res.link} target="_blank" rel="noopener noreferrer">
                   <div class="grid-cols-1 h-full rounded-xl px-3 py-4 shadow-sm border border-slate-300 hover:border-slate-400">
                     <img alt={res.name} src={res.logo} class="w-1/2 h-auto" />
                     <p class="text-sm text-base-content mt-3">{res.desc}</p>
@@ -68,9 +78,9 @@ export const Companies: Component = () => {
 
 export const Blogs: Component = () => {
   return (
-    <section class="px-4 mt-12">
-      <h1 class="text-2xlfont-semibold">Notes to Theyself</h1>
-      <div class="mt-6 grid grid-cols-3 gap-3">
+    <section class="md:px-0 lg:px-4 mt-12">
+      <h1 class="text-2xl font-semibold">Notes to Theyself</h1>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3">
         <For each={CompaniesInfo}>
           {(res) => {
             return (

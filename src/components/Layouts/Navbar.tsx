@@ -1,4 +1,4 @@
-import { createEffect, type Component } from "solid-js";
+import { type Component } from "solid-js";
 import { FiMoon, FiSun } from "solid-icons/fi";
 import { useLocation } from "solid-start";
 import { theme } from "./../../root";
@@ -8,8 +8,8 @@ const Navbar: Component = () => {
   const location = useLocation();
   const active = (path: string) =>
     path == location.pathname
-      ? "border-sky-600"
-      : "border-transparent hover:border-sky-600";
+      ? "text-indigo-400 hover:text-indigo-600 text-lg"
+      : "border-transparent hover:text-indigo-600 text-lg";
 
   const toggleTheme = () => {
     if (theme() === "night") {
@@ -19,12 +19,8 @@ const Navbar: Component = () => {
     }
   };
 
-  createEffect(() => {
-    console.log("theme", theme());
-  });
-
   return (
-    <div class="navbar container bg-base-100 w-[54rem] mx-auto">
+    <div class="navbar container bg-base-100 w-full md:w-screen lg:w-[54rem] px-0 md:px-0 lg:px-4 mx-auto">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -48,31 +44,39 @@ const Navbar: Component = () => {
             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://t.me/s/rithythul">Notes</a>
             </li>
           </ul>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li>
-              <a class={` ${active("/")} text-lg`} href="#">
+              <a class={active("/")} href="/">
                 Home
               </a>
             </li>
             <li>
-              <a class={` ${active("/projects")} text-lg`} href="#">
+              <a class={active("/projects")} href="/projects">
                 Projects
               </a>
             </li>
             <li>
-              <a class={` ${active("/contact")} text-lg`} href="#">
-                Contact
+              <a class={active("/about")} href="/about">
+                About
+              </a>
+            </li>
+            <li>
+              <a class={active("https://t.me/s/rithythul")} target="_blank" href="https://t.me/s/rithythul">
+                Notes
               </a>
             </li>
           </ul>
