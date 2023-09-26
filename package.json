@@ -7,6 +7,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "autoprefixer": "^10.4.15",
     "daisyui": "^3.7.3",
     "postcss": "^8.4.28",
@@ -16,8 +17,12 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
+    "@mtproto/core": "6.3.0",
     "@solidjs/meta": "^0.28.6",
     "@solidjs/router": "^0.8.3",
+    "@types/node": "^20.6.3",
+    "aos": "^2.3.4",
+    "axios": "^1.5.0",
     "solid-icons": "^1.0.12",
     "solid-js": "^1.7.11",
     "solid-start": "^0.3.5"
