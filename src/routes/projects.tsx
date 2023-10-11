@@ -22,7 +22,7 @@ export const ProjectsLine: Component = () => {
             <div class="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-indigo-400">
               <h3 class="text-3xl font-semibold">Projects</h3>
               <span class="text-sm font-bold tracking-wider uppercase text-gray-400">
-                and Eco-system
+                Currently Involved
               </span>
             </div>
           </div>

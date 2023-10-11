@@ -49,9 +49,9 @@ const Navbar: Component = () => {
             <li>
               <a href="/projects">Projects</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/about">About</a>
-            </li>
+            </li> */}
             <li>
               <a target="_blank" href="https://t.me/s/rithythul">Notes</a>
             </li>
@@ -69,11 +69,11 @@ const Navbar: Component = () => {
                 Projects
               </a>
             </li>
-            <li>
+            {/* <li>
               <a class={active("/about")} href="/about">
                 About
               </a>
-            </li>
+            </li> */}
             <li>
               <a class={active("https://t.me/s/rithythul")} target="_blank" href="https://t.me/s/rithythul">
                 Notes
