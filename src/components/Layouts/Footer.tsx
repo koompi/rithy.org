@@ -29,6 +29,14 @@ const Footer: Component = () => {
         >
           <BiLogosTwitter size={24} />
         </a>
+        <a
+          rel="noopener noreferrer"
+          href=" https://app.ens.domains/rithy.eth"
+          target="_blank"
+        >
+          <BiLogosENS size={24} />
+        </a>
+       
       </nav>
     </footer>
   );

@@ -44,16 +44,16 @@ const Navbar: Component = () => {
             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/">Home</a>
+              <a href="/">./home</a>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <a href="/projects">./projects</a>
             </li>
             {/* <li>
               <a href="/about">About</a>
             </li> */}
             <li>
-              <a target="_blank" href="https://t.me/s/rithythul">Notes</a>
+              <a target="_blank" href="https://t.me/s/rithythul">./journal</a>
             </li>
           </ul>
         </div>
@@ -61,12 +61,12 @@ const Navbar: Component = () => {
           <ul class="menu menu-horizontal px-1">
             <li>
               <a class={active("/")} href="/">
-                Home
+                ./home
               </a>
             </li>
             <li>
               <a class={active("/projects")} href="/projects">
-                Projects
+                ./projects
               </a>
             </li>
             {/* <li>
@@ -76,7 +76,7 @@ const Navbar: Component = () => {
             </li> */}
             <li>
               <a class={active("https://t.me/s/rithythul")} target="_blank" href="https://t.me/s/rithythul">
-                Notes
+                _/journal
               </a>
             </li>
           </ul>
