@@ -17,6 +17,7 @@ import {
 import "./root.css";
 import Navbar from "./components/Layouts/Navbar";
 import Footer from "./components/Layouts/Footer";
+import MobileNavigator from "./components/Layouts/MobileNavigator";
 
 const defaultTheme = () => {
   if (typeof localStorage === "undefined") {
@@ -42,18 +43,18 @@ export default function Root() {
     <Html lang="en" data-theme={theme()}>
       <Head>
         <Title>Rithy THUL</Title>
-        <Meta name="twitter:image:src" content="/images/about-2.png" />
+        <Meta name="twitter:image:src" content="/images/rithy-thul.jpg" />
         <Meta name="twitter:site" content="@github" />
         <Meta name="twitter:card" content="summary_large_image" />
-        <Meta name="twitter:title" content="Portfolio | Rithy THUL" />
+        <Meta name="twitter:title" content="Rithy THUL" />
         <Meta
           name="twitter:description"
-          content="Daydream @smallworldventure, building and nurturing @koompi, @selendra, @vitaminair. Notes @rithythul."
+          content="A daydreamer @smallworld , building and nurturing@koompi, @selendra, @vitaminair, and journaling@rithythul."
         />
-        <Meta property="og:image" content="/images/about-2.png" />
+        <Meta property="og:image" content="/images/rithy-thul.jpg" />
         <Meta
           property="og:image:alt"
-          content="Daydream @smallworldventure, building and nurturing @koompi, @selendra, @vitaminair. Notes @rithythul."
+          content="A daydreamer @smallworld , building and nurturing@koompi, @selendra, @vitaminair, and journaling@rithythul."
         />
         <Meta property="og:image:width" content="1200" />
         <Meta property="og:image:height" content="600" />
@@ -67,6 +68,7 @@ export default function Root() {
               <FileRoutes />
             </Routes>
             <Footer />
+            <MobileNavigator />
           </ErrorBoundary>
         </Suspense>
         <Scripts />
