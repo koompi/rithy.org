@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build --output public",
-    "start": "solid-start start"
+    "start": "solid-start start -p 60003"
 
   },
   "type": "module",
