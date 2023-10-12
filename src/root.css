@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200&family=Source+Sans+3&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  font-family: "Poppins", sans-serif;
-} */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+}
 
 
 

@@ -5,11 +5,11 @@ import {SiEthereum} from "solid-icons/si"
 
 const Footer: Component = () => {
   return (
-    <footer class="footer container bg-base-100 w-full md:w-screen lg:w-[54rem] mx-auto items-center pt-24 px-4 md:px-0 lg:px-4 pb-4 text-neutral-content">
+    <footer class="footer container bg-base-100 w-full md:w-screen lg:w-[54rem] mx-auto items-center pt-24 px-4 md:px-0 lg:px-4 pb-4 text-neutral-content flex justify-between">
       <aside class="items-center grid-flow-col mx-auto md:mx-auto lg:mx-0">
         <p>Copyleft 2023 - <a href="https://rithy.org"> rithy.org </a></p>
       </aside>
-      <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end hidden md:hidden lg:block">
+      <nav class="flex">
         <a
           rel="noopener noreferrer"
           href="https://t.me/s/rithythul/"
