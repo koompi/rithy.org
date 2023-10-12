@@ -1,5 +1,7 @@
 import { Component } from "solid-js";
-import { BiLogosLinkedin, BiLogosTelegram, BiLogosTwitter } from "solid-icons/bi";
+import { BiLogosLinkedin, BiLogosTelegram, BiLogosTwitter, }  from "solid-icons/bi";
+import {SiEthereum} from "solid-icons/si"
+
 
 const Footer: Component = () => {
   return (
@@ -34,7 +36,7 @@ const Footer: Component = () => {
           href=" https://app.ens.domains/rithy.eth"
           target="_blank"
         >
-          <BiLogosENS size={24} />
+          <SiEthereum size={24} />
         </a>
        
       </nav>
