@@ -29,23 +29,22 @@ export const Banner: Component = () => {
                 href="https://smallworldventure.com"
                 class="text-blue-400 hover:text-green-400"
               >
-                @smallworld{" "}
-              </a>
-              , building and nurturing
+                @smallworld{""}
+              </a>, building and nurturing 
               <a
                 target="_blank"
                 href="https://koompi.com"
                 class="text-blue-400 hover:text-green-400"
               >
-                @koompi,{" "}
-              </a>
+                @koompi{""}
+              </a>,
               <a
                 target="_blank"
                 href="https://portal.selendra.org"
                 class="text-blue-400 hover:text-green-400"
               >
-                @selendra,{" "}
-              </a>
+                @selendra{" "}
+              </a>,
               <a
                 target="_blank"
                 href="https://vitaminair.org"
@@ -53,14 +52,14 @@ export const Banner: Component = () => {
               >
                 @vitaminair
               </a>
-              , and journaling
+              , and journaling 
               <a
                 target="_blank"
                 href="https://t.me/s/rithythul"
                 class="text-blue-400 hover:text-green-400"
               >
-                @rithythul.
-              </a>
+                @telegram
+              </a>.
             </p>
           </div>
         </div>
