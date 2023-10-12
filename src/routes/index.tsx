@@ -30,14 +30,14 @@ export const Banner: Component = () => {
             </div>
           </div>
           <div class="text-center md:text-start">
-            <h1 class="text-4xl font-bold">Rithy Thul</h1>
+            <h1 class="text-4xl text-base-content font-bold">Rithy Thul</h1>
             <p class="text-base-content text-lg mt-1">
-            A daydreamer <a href="https://smallworldventure.com">@smallworld </a>  
+            A daydreamer <a href="https://smallworldventure.com" class="text-blue-400 hover:text-blue-600">@smallworld </a>  
               , building and nurturing 
-              <a target="_blank" href="https://koompi.com">@koompi, </a> 
-              <a target="_blank" href="https://portal.selendra.org">@selendra, </a> 
-              <a target="_blank" href="https://vitaminair.org">@vitaminair, and journaling </a> 
-              <a target="_blank" href="https://t.me/s/rithythul">@rithythul.</a>
+              <a target="_blank" href="https://koompi.com" class="text-blue-400 hover:text-blue-800">@koompi, </a> 
+              <a target="_blank" href="https://portal.selendra.org" class="text-blue-400 hover:text-blue-800">@selendra, </a> 
+              <a target="_blank" href="https://vitaminair.org" class="text-blue-400 hover:text-blue-800">@vitaminair, and journaling </a> 
+              <a target="_blank" href="https://t.me/s/rithythul" class="text-blue-400 hover:text-blue-800">@rithythul.</a>
             </p>
           </div>
         </div>
