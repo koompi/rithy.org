@@ -16,13 +16,13 @@ export const Banner: Component = () => {
       <div class="hero bg-base-100 pt-12 pb-6">
         <div class="hero-content flex-col lg:flex-row-reverse justify-between">
           <div class="avatar mx-0">
-            <div class="w-40 rounded-full shadow-2xl">
+            <div class="w-40 sm:w-96 lg:w-40 rounded-full sm:rounded-full lg:rounded-full shadow-2xl">
               <img src="/images/rithy-thul.jpg" alt="Rithy Thul's profile" />
             </div>
           </div>
           <div class="text-center md:text-start text-base-content">
             <h1 class="text-4xl font-bold">Rithy Thul</h1>
-            <p class="text-lg mt-1 sm:text-4xl lg:text-lg ">
+            <p class="text-lg mt-1 sm:text-4xl lg:text-lg my-leading-none sm:my-leading lg:my-leading-none">
               A daydreamer{" "}
               <a
                 target="_blank"
@@ -59,6 +59,7 @@ export const Banner: Component = () => {
                 href="https://t.me/s/rithythul"
                 class="text-blue-400 hover:text-green-400"
               >
+                {" "}
                 @rithythul.
               </a>
             </p>
@@ -83,7 +84,7 @@ export const Bio: Component = () => {
           >
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
-          <p class="leading-relaxed text-lg  sm:text-4xl lg:text-lg">
+          <p class="leading-relaxed text-lg  sm:text-4xl lg:text-lg my-leading-none sm:my-leading lg:my-leading-none">
             As an entrepreneur, adventurer, cyclist, and writer, I've had the
             privilege to initiate various endeavors over the years. In 2011,{" "}
             <a
@@ -106,7 +107,7 @@ export const Bio: Component = () => {
             bridging the digital divide and making technology more accessible.
           </p>
           <br />
-          <p class="leading-relaxed text-lg  sm:text-4xl lg:text-lg">
+          <p class="leading-relaxed text-lg  sm:text-4xl lg:text-lg my-leading-none sm:my-leading lg:my-leading-none">
             That same year, the vision for{" "}
             <a
               href="https://vitaminair.org"
@@ -121,7 +122,7 @@ export const Bio: Component = () => {
             not only promoting the concept but also nurturing future residents.
           </p>
           <br />
-          <p class="leading-relaxed text-lg sm:text-4xl lg:text-lg">
+          <p class="leading-relaxed text-lg sm:text-4xl lg:text-lg my-leading-none sm:my-leading lg:my-leading-none">
             In 2019,{" "}
             <a
               href="https://selendra.org"
