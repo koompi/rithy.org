@@ -32,12 +32,12 @@ export const Banner: Component = () => {
           <div class="text-center md:text-start text-base-content">
             <h1 class="text-4xl  font-bold">Rithy Thul</h1>
             <p class=" text-lg mt-1">
-            A daydreamer <a href="https://smallworldventure.com" class="text-blue-400 hover:text-green-400" target="_blank">@smallworld </a>  
+            A daydreamer <a target="_blank" href="https://smallworldventure.com" class="text-blue-400 hover:text-green-400">@smallworld </a>  
               , building and nurturing 
-              <a target="_blank" href="https://koompi.com" class="text-blue-400 hover:text-green-400" target="_blank">@koompi, </a> 
-              <a target="_blank" href="https://portal.selendra.org" class="text-blue-400 hover:text-green-400" target="_blank">@selendra, </a> 
-              <a target="_blank" href="https://vitaminair.org" class="text-blue-400 hover:text-green-400" target="_blank">@vitaminair, and journaling </a> 
-              <a target="_blank" href="https://t.me/s/rithythul" class="text-blue-400 hover:text-green-400" target="_blank">@rithythul.</a>
+              <a target="_blank" href="https://koompi.com" class="text-blue-400 hover:text-green-400">@koompi, </a> 
+              <a target="_blank" href="https://portal.selendra.org" class="text-blue-400 hover:text-green-400">@selendra, </a> 
+              <a target="_blank" href="https://vitaminair.org" class="text-blue-400 hover:text-green-400">@vitaminair, and journaling </a> 
+              <a target="_blank" href="https://t.me/s/rithythul" class="text-blue-400 hover:text-green-400">@rithythul.</a>
             </p>
           </div>
         </div>
