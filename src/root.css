@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200&family=Source+Sans+3&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200&family=Source+Sans+3&family=Space+Mono&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Space Mono', monospace;
+@layer components {
+  .container {
+    @apply max-w-4xl px-4 self-center;
+  }
 }
 
-
+body {
+  font-family: "Space Mono", monospace;
+}
 
 .background-img {
   background-image: url("/images/lopper.png");

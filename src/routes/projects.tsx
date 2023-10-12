@@ -32,13 +32,15 @@ export const ProjectsLine: Component = () => {
                 {(res) => (
                   <Show when={res} fallback={<p>Loading ...</p>}>
                     <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-indigo-400">
-                      <h3 class="text-xl font-semibold tracking-wide">
+                      <h3 class="text-xl sm:text-4xl lg:text-xl font-semibold sm:font-normal lg:font-semibold tracking-wide">
                         {res?.name}
                       </h3>
-                      <time class="text-xs tracking-wide uppercase text-gray-400">
+                      <time class="text-xs sm:text-3xl lg:text-xs tracking-wide uppercase text-secondary">
                         {res?.createdAt}
                       </time>
-                      <p class="mt-3">{res?.desc}</p>
+                      <p class="mt-3 text-md sm:text-2xl lg:text-xl">
+                        {res?.desc}
+                      </p>
                     </div>
                   </Show>
                 )}
