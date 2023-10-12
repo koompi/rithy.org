@@ -25,7 +25,7 @@ export const Banner: Component = () => {
       <div class="hero bg-base-100 pt-12 pb-6">
         <div class="hero-content flex-col lg:flex-row-reverse justify-between">
           <div class="avatar mx-0">
-            <div class="w-40 rounded-full shadow-2xl">
+            <div class="w-40 rounded shadow-2xl">
               <img src="/images/rithy-thul.jpg" alt="Rithy Thul's profile" />
             </div>
           </div>
