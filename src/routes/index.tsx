@@ -36,7 +36,7 @@ export const Banner: Component = () => {
               , building and nurturing 
               <a target="_blank" href="https://koompi.com" class="text-blue-400 hover:text-green-400">@koompi, </a> 
               <a target="_blank" href="https://portal.selendra.org" class="text-blue-400 hover:text-green-400">@selendra, </a> 
-              <a target="_blank" href="https://vitaminair.org" class="text-blue-400 hover:text-green-400">@vitaminair, and journaling </a> 
+              <a target="_blank" href="https://vitaminair.org" class="text-blue-400 hover:text-green-400">@vitaminair</a>, and journaling 
               <a target="_blank" href="https://t.me/s/rithythul" class="text-blue-400 hover:text-green-400">@rithythul.</a>
             </p>
           </div>
