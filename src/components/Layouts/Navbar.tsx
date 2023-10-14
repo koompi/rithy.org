@@ -23,7 +23,7 @@ const Navbar: Component = () => {
     <div class="navbar container bg-base-100 w-full md:w-screen lg:w-[54rem] px-0 md:px-0 lg:px-4 mx-auto py-0 sm:py-6 lg:py-0">
       <div class="navbar-start">
         <h1 class="hidden sm:block lg:hidden text-base-content text-2xl sm:text-3xl lg:text-3xl">
-          ./Rithy THUL
+          ./rithythul
         </h1>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">

@@ -16,12 +16,12 @@ export const Banner: Component = () => {
       <div class="hero bg-base-100 pt-12 pb-6">
         <div class="hero-content flex-col lg:flex-row-reverse justify-between">
           <div class="avatar mx-0">
-            <div class="w-40 sm:w-96 lg:w-40 rounded-full sm:rounded-full lg:rounded-full shadow-2xl">
-              <img src="/images/rithy-thul.jpg" alt="Rithy Thul's profile" />
+            <div class="w-40 sm:w-96 lg:w-40 rounded-full sm:rounded lg:rounded-full shadow-2xl">
+              <img src="/images/rithy-thul.jpg" alt="rithy thul's profile" />
             </div>
           </div>
-          <div class="text-center md:text-start text-base-content">
-            <h1 class="text-4xl font-bold">Rithy Thul</h1>
+          <div class="text-center md:text-start text-base-content mt-10">
+            <h1 class="text-6xl font-bold">rithy thul</h1>
             <p class="text-lg mt-1 sm:text-4xl lg:text-lg my-leading-none sm:my-leading lg:my-leading-none">
               A daydreamer{" "}
               <a
@@ -31,38 +31,36 @@ export const Banner: Component = () => {
               >
                 @smallworld{""}
               </a>
-              , building and nurturing
+              , curator 
               <a
                 target="_blank"
                 href="https://koompi.com"
                 class="text-blue-400 hover:text-green-400"
               >
                 @koompi{""}
-              </a>
-              ,
+              </a>, 
               <a
                 target="_blank"
                 href="https://portal.selendra.org"
                 class="text-blue-400 hover:text-green-400"
               >
-                @selendra{" "}
-              </a>
-              ,
+                @selendra{""}
+              </a>, and 
               <a
                 target="_blank"
                 href="https://vitaminair.org"
                 class="text-blue-400 hover:text-green-400"
               >
                 @vitaminair
-              </a>
-              , and journaling
+              </a>.  
+                Random notes
               <a
                 target="_blank"
                 href="https://t.me/s/rithythul"
                 class="text-blue-400 hover:text-green-400"
               >
                 {" "}
-                @rithythul.
+                @telegram.
               </a>
             </p>
           </div>
