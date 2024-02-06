@@ -1,5 +1,5 @@
 # Portfolio site
-Thanks [Thith](https://github.com/Thith-thith) from KOOMPI for dev this source.
+Thanks [Thith](https://github.com/Thith-thith) from KOOMPI for written this.
 
 ## Developing
 
