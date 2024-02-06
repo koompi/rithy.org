@@ -6,12 +6,12 @@ export const projectsData = [
     createdAt: "2011",
     desc: "SmallWorld, founded in 2011, is a venture builder and micro-vc with the aim of nurturing a vibrant tech startup community in Cambodia.",
   },
-  {
+  {/*
     id: "2",
     name: "KOOMPI OS",
     createdAt: "2013",
     desc: "KOOMPI OS is a Linux-based operating system that emphasizes user control and flexibility. It provides both an immutable and mutable OS, enabling users to effortlessly switch between modes according to their needs.",
-  },
+*/},
   {
     id: "1",
     name: "KOOMPI",
@@ -36,16 +36,12 @@ export const projectsData = [
     createdAt: "2019",
     desc: "Weteka is a blockchain-based incentivized (learn-to-earn) school and self-learning platform, crafted with a focus on Cambodian schools but adaptable for students and teachers globally.",
   },
-  {
+
+  {/*
     id: "7",
     name: "Querym",
     createdAt: "2023",
     desc: "Querym is a free, open-source, cross-platform GUI tool designed to enhance database management accessibility and efficiency.",
-  },
-
-
-
-
-
+*/},
 
 ];
