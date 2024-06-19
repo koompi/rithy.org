@@ -31,36 +31,36 @@ export const Banner: Component = () => {
               >
                 @smallworld{""}
               </a>
-              , curator 
+              , building and running   
               <a
                 target="_blank"
                 href="https://koompi.com"
                 class="text-blue-400 hover:text-green-400"
               >
-                @koompi{""}
+                koompi{""}
               </a>, 
               <a
                 target="_blank"
                 href="https://portal.selendra.org"
                 class="text-blue-400 hover:text-green-400"
               >
-                @selendra{""}
+                selendra{""}
               </a>, and 
               <a
                 target="_blank"
                 href="https://vitaminair.org"
                 class="text-blue-400 hover:text-green-400"
               >
-                @vitaminair
-              </a>.  
-                Random notes
+                vitaminair
+              </a> with some fun and amazing mind ever assembled in Cambodia.  
+                Random notes on
               <a
                 target="_blank"
-                href="https://t.me/s/rithythul"
+                href="https://t.me/notestothyself"
                 class="text-blue-400 hover:text-green-400"
               >
                 {" "}
-                @telegram.
+                Telegram channel.
               </a>
             </p>
           </div>

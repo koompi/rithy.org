@@ -17,6 +17,7 @@ const Footer: Component = () => {
             rithy.org{" "}
           </a>
         </p>
+        
       </aside>
       <aside class="flex">
         <a
