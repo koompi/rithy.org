@@ -6,13 +6,13 @@ WORKDIR /app
 
 # Install dependencies
 COPY package.json yarn.lock ./
-RUN yarn install
+RUN npm install
 
 # Copy the rest of the application code
 COPY . .
 
 # Build the Next.js app
-RUN yarn build
+RUN npm run build
 
 # Stage 2: Serve the Next.js app
 FROM node:18-alpine AS runner
