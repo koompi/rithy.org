@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Copy and install dependencies
 COPY package.json pnpm-lock.yaml ./
-RUN pnpm install -f
+RUN pnpm install
 
 # Copy the rest of the application code
 COPY . .
@@ -31,7 +31,7 @@ WORKDIR /app
 
 # Copy necessary files from the builder stage
 COPY --from=builder /app/package.json ./
-COPY --from=builder /app/dist ./dist       # Change /dist to your app's output directory if different
+COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/node_modules ./node_modules
 
 # Expose the app's port (change if different)
